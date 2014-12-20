@@ -1,0 +1,25 @@
+id: custom_user
+source:
+  plugin: custom_user
+destination:
+  plugin: entity:user
+process:
+  uid: uid
+  name: name
+  pass: pass
+  mail: mail
+  status: status
+  created: created
+  changed: changed
+  access: access
+  login: login
+  timezone: timezone
+  langcode: language
+  preferred_langcode: language
+  preferred_admin_langcode: language
+  init: init
+  field_ecivil: ecivil
+  field_ocupaci_n: ocupaci_n
+  field_cumpleanos: cumpleanos
+  field_religi_n: religi_n
+  field_lugar_de_residencia: lugar_de_residencia
